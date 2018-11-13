@@ -1,0 +1,6 @@
+framework module LCXCategories {
+  umbrella header "LCXCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

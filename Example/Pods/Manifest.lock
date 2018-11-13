@@ -1,0 +1,16 @@
+PODS:
+  - LCXCategories (0.1.0)
+
+DEPENDENCIES:
+  - LCXCategories (from `../`)
+
+EXTERNAL SOURCES:
+  LCXCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LCXCategories: 56289facaee7f554d4a9fb0cf2ec7d2541657e36
+
+PODFILE CHECKSUM: 75606398aebf13c6d859cd5911f964a1388e7a1a
+
+COCOAPODS: 1.5.3
