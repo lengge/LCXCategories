@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LCXCategories_Example' do
+  pod 'LCXCategories', :path => '../'
+
+  target 'LCXCategories_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
