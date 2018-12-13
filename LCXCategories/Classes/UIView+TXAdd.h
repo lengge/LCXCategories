@@ -22,9 +22,6 @@ typedef NS_OPTIONS(NSInteger, UIBorderSideType) {
                   width:(CGFloat)width
                    type:(UIBorderSideType)type;
 
-
-- (void)cornerWithCornerRadius:(CGFloat)cornerRadius;
-
 @end
 
 

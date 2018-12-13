@@ -71,14 +71,6 @@ const void * TXBorderShapeLayerKey = "TXBorderShapeLayerKey";
     objc_setAssociatedObject(self, TXBorderShapeLayerKey, borderShapeLayer, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (void)cornerWithCornerRadius:(CGFloat)cornerRadius {
-    UIBezierPath *bezierPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds cornerRadius:cornerRadius];
-    CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
-    maskLayer.frame = self.bounds;
-    maskLayer.path = bezierPath.CGPath;
-    self.layer.mask = maskLayer;
-}
-
 @end
 
 
